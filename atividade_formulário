@@ -1,0 +1,98 @@
+# Projeto atual
+
+### 📝 Formulário de Cadastro - Banco de Talentos
+
+Um formulário HTML simples para simular o cadastro de candidatos em um banco de talentos fictício chamado **VTS Code**.
+
+### 💡 Tecnologias utilizadas
+- HTML5
+
+Estrutura do projeto:
+
+<!Doctype HTML>
+<html>
+    <head> 
+        <title>  Formulários  </title>
+    </head>
+    <h1 style="text-align:center; color:black">Faça aqui seu cadastro em nosso Banco de Talentos </h1> <br><br>
+    <h4> Bem vindo ao banco de talentos da VTS Code. <br>
+      Neste formulário, você terá de inserir todas as informações pedidas para concluí-lo. No fim, não esqueça de inserir
+    seu currículo e portfólio para concluir seu cadastro.<br>
+  Boa sorte e espero te encontrar em breve. 
+</h4>
+    <body style="background-color: #f0f8ff;"> 
+        <form action="cadastro.php" method="post">
+           
+          
+          <label for="nome"> Nome:</label>
+          <input type="text" id="nome" name="nome" required> 
+
+          <label for="sobrenome"> Sobrenome:</label>
+          <input type="text" id="sobrenome" name="sobrenome" required>            
+          
+           <label for="nascimento"> Data de Nascimento:</label>
+          <input type="date" id="nascimento" name="nascimento" required> 
+
+           <label for="tel"> Celular:</label>
+          <input type="tel" id="tel" name="celular" required> 
+
+          <label for="email"> E-mail:</label>
+          <input type="email" id="email" name="email" required> <br><br>
+          
+          <label for="nome"> Cargo Pretendido:</label>
+          <input type="text" id="cargo" name="cargo" required> 
+
+              
+            <label for="formacao">Formação</label>
+            <select id="curso" name="curso" required>
+                <option value="branco"> </option>
+                <option value="computacao"> Ciências da Computação</option> 
+                <option value="analisedesistemas"> Análise e Desenvolvimento de Sistemas</option>
+                <option value="computacao"> Ciências da Computação</option>
+                <option value="informacao"> Sistemas de Informação</option>
+                <option value="financa"> Gestão Financeira</option>
+                <option value="economia">Economia</option>
+                <option value="contabil">Contabilidade</option>
+                <option value="tecnicoinf">Técnico na área T.I</option>
+                <option value="tecnicogestao">Técnico na área Gestão</option>
+                <option value="outros">Outros</option>
+              </select>
+          </div><br><br>
+          <label for="nomecursooutros"> Caso tenha escolhido "outros" no campo anterior, descreva o nome do curso:</label>
+          <input type="text" id="cursosoutros" name="cursosoutros"> <br> <br>
+          <label for="instituicao"> Instituição de ensino Superior ou técnico:</label>
+          <input type="text" id="instituicao" name="instituicao"> <br><br>
+ 
+          <h4>Marque no campo abaixo o horário pretendido de trabalho:</h4>
+          <label for="horario">Manhã - presencial</label> 
+          <input type="checkbox" id="Manha - presencial" name="manha"> <br>
+          <label for="horario">Tarde - presencial</label> 
+          <input type="checkbox" id="tarde - presencial" name="tarde"> <br>
+          <label for="horario">Integral</label> 
+          <input type="checkbox" id="integral" name="integral">  <br>
+          <label for="horario">Remoto</label> 
+          <input type="checkbox" id="remoto" name="remoto">  <br><br>
+
+        </div>
+
+
+
+        
+
+           <label for="url">Currículo (Linkedin):</label>
+          <input type="url" id="url" name="url" required> 
+
+          <label for="url">Portfólio (Github ou outra plataforma):</label>
+          <input type="url" id="url" name="url" required>
+          <br><br>
+          Crie uma senha de acesso para acompanhamento do processo seletivo:
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required> <br> <br>
+          
+          <button type="Submit"> Enviar</button>  
+          <button type="reset"> Limpar dados</button>
+        
+        </form> 
+        </table>
+ </body>
+</html>
