@@ -7,8 +7,8 @@ Um formulário HTML simples para simular o cadastro de candidatos em um banco de
 ### 💡 Tecnologias utilizadas
 - HTML5
 
-Estrutura do projeto:
-
+#Estrutura do projeto:
+---------------------------------------------------------------------------------------------------
 <!Doctype HTML>
 <html>
     <head> 
@@ -41,7 +41,6 @@ Estrutura do projeto:
           
           <label for="nome"> Cargo Pretendido:</label>
           <input type="text" id="cargo" name="cargo" required> 
-
               
             <label for="formacao">Formação</label>
             <select id="curso" name="curso" required>
@@ -58,6 +57,7 @@ Estrutura do projeto:
                 <option value="outros">Outros</option>
               </select>
           </div><br><br>
+
           <label for="nomecursooutros"> Caso tenha escolhido "outros" no campo anterior, descreva o nome do curso:</label>
           <input type="text" id="cursosoutros" name="cursosoutros"> <br> <br>
           <label for="instituicao"> Instituição de ensino Superior ou técnico:</label>
@@ -73,11 +73,7 @@ Estrutura do projeto:
           <label for="horario">Remoto</label> 
           <input type="checkbox" id="remoto" name="remoto">  <br><br>
 
-        </div>
-
-
-
-        
+        </div>        
 
            <label for="url">Currículo (Linkedin):</label>
           <input type="url" id="url" name="url" required> 
