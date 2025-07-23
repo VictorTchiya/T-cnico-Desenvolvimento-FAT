@@ -1,0 +1,132 @@
+**Atividade entregue na aula 08 de Programação WEB da Escola FAT - Técnico em Desenvolvimento de Sistemas**
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cuidados Pets</title>
+    </head>
+    
+       <body style="background-color:rgb(179, 215, 237)">
+
+        <header> 
+           <img 
+           src = "C:\Users\User\Desktop\trabalhos práticos - tecnico\imagens\DOG.png"
+           alt ="logo"
+           style = "width: 1300px; height: 550px; display: block; margin: 0 auto;"
+           >       
+        </header>
+        
+        <br><br>
+
+        <h3 style="color: gray;"> Bem-vindo ao nosso blog sobre cachorros de estimação! <br> Neste espaço, você encontrará informações e dicas úteis 
+            sobre como cuidar do seu melhor amigo canino.</h3>
+
+            <hr width="100%" align="center" size="3" color="black">
+
+            <h1>Cuidados Pets</h1> 
+            <h2> Cuidados básicos com o seu cachorro</h2> 
+
+            <ul>
+                <li>Alimentação: uma alimentação adequada é essencial para a saúde do seu cão. Dê a ele ração de qualidade e evite dar 
+                    comida humana, que pode causar problemas de saúde.</li> 
+                <li> Higiene: banhos regulares, escovação dos pelos e limpeza dos ouvidos são importantes para manter o seu cachorro limpo e saudável.</li>
+                <li>Vacinas e vermifugação: mantenha a carteira de vacinação do seu cachorro atualizada e faça a vermifugação
+                     regularmente para prevenir doenças.</li>
+                <li>Passeios e exercícios: os cachorros precisam de exercícios físicos diários para manter a saúde e a felicidade. 
+                    Leve-o para passear e brincar regularmente.</li>
+                <li> Consultas ao veterinário: consulte regularmente um veterinário para garantir que seu cachorro esteja saudável e 
+                    receba os cuidados necessários.</li>
+            </ul> 
+
+            <h2>Raças de cachorro</h2> 
+            <p> Existem muitas raças de cachorro, cada uma com suas características e personalidades únicas. Algumas das raças mais 
+                populares incluem:</p>
+
+
+                <table border="2" cellspacing="5px" cellpadding="5px">
+                          
+                            <tr style="text-align:center; font-weight: bold;"> 
+                              <td >Raça</td>
+                              <td>Características</td>
+                              <td>Imagem</td>
+                             </tr> 
+
+                            <tr> 
+                             <td> Labrador Retriever</td>
+                             <td> Uma das raças mais populares do mundo, o labrador é conhecido por ser amigável, leal e inteligente</td>
+                             <td> <img src= "C:\Users\User\Desktop\trabalhos práticos - tecnico\imagens\labrador.jpg" </td>
+                            </tr>
+
+                            <tr>
+                                <td>Golden Retriever</td>
+                                <td>Outro favorito popular, o golden retriever é um cachorro amigável e afetuoso que adora brincar.</td>   
+                                <td><img src="C:\Users\User\Desktop\trabalhos práticos - tecnico\imagens\golden.jpg" </td>                             
+                            </tr>
+                            <tr>
+                                <td> Poodle</td>
+                                <td>uma raça inteligente e brincalhona, o poodle vem em três tamanhos diferentes e é uma ótima opção para pessoas com alergias.</td>
+                                <td><img src="C:\Users\User\Desktop\trabalhos práticos - tecnico\imagens\poodle.jpg" </td>
+                            </tr>
+
+                            <tr>
+                                <td> Bulldog Inglês</td>
+                                <td> Um cachorro amigável e leal, o bulldog inglês é uma raça tranquila e de baixa energia.</td>
+                                <td><img src="C:\Users\User\Desktop\trabalhos práticos - tecnico\imagens\Bulldog Inglês.jpg"</td>
+                            </tr>
+                            
+                            <tr>
+                                 <td>Pastor Alemão </td>
+                                 <td>Uma raça inteligente e corajosa, o pastor alemão é frequentemente usado como cão policial ou de guarda</td>
+                                <td> <img src="C:\Users\User\Desktop\trabalhos práticos - tecnico\imagens\Pastor Alemão.jpg"</td> 
+                                </tr>                  
+
+
+                 </table>  <br> <br>
+                 
+                 <h2> Dicas para treinamento de cachorro</h2>
+                  
+                  <ol>
+                    <li>Use reforço positivo: recompense seu cachorro quando ele fizer algo certo, em vez de puni-lo quando ele fizer algo errado.</li>
+                    <li>Seja consistente: use os mesmos comandos e treinamentos todos os dias para que o seu cachorro entenda o que é esperado dele.</li>
+                    <li>Não desista: treinar um cachorro pode ser difícil, mas é importante ser persistente e continuar tentando.</li>
+                    <li> Envolva toda a família: todos devem participar do treinamento do cachorro para que ele entenda o que é esperado dele.</li>
+                    <li>Considere a ajuda de um profissional: se você estiver tendo dificuldades com o treinamento do seu cachorro, pode ser útil procurar a ajuda de um treinador profissional.</li>
+                 </ol>
+
+                 <p> Esperamos que estas informações e dicas tenham sido úteis para você e seu cachorro. Lembre-se, cuidar de um cachorro é uma responsabilidade importante, mas com amor e atenção, você pode desfrutar de uma vida feliz e saudável com o seu melhor amigo peludo.</p>
+
+                 <br>
+
+                 <h2>Deixe aqui seu comentário!</h2>
+
+                 <form action="comentario.php" method="post">
+
+                 <label for="nome">Nome: </label>
+                 <input type="text" id="nome" name="nome" required> 
+
+                 <label for="email">E-mail: </label>
+                 <input type="email" id="email" name="email" required> 
+
+                 <label for="telefone">Whatsapp: </label>
+                 <input type="telefone" id="telefone" name="telefone"> <br><br>
+
+                 <textarea id="mensagem" name="mensagem" rows="5" required>Deixe aqui seu comentário: </textarea>
+
+                 <p><button type="submit">Enviar</button> 
+                 <button type="reset">Limpar dados</button> </p>   
+                 
+                 </form>
+
+                 <h2 align="center"> Assista um vídeo que auxilia a compreender o cuidado com os cães! </h2>
+
+                 <div style="text-align:center;"> <iframe width="340" height="200" src="https://www.youtube.com/embed/MgpZOhbFzo0?si=AGA5o18VIWPxJbqb&amp;start=3" 
+                 title="YouTube video player" frameborder="15" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                 gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe><br><br>
+
+                   <footer style= "text-align:center;font-weight: bold;"> <p> Desenvolvido por VTS DOGS - 2025. Todos os direitos reservados. </p></footer>
+
+                                       
+        </body>
+
+</html>
